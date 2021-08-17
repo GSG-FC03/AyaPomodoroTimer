@@ -1,0 +1,64 @@
+/* Style the body of the page */
+body {
+  height: 100%;
+  background-color: #efaac4;
+  font-family: Serif;
+  color: white;
+  text-align: center;
+  display: grid;
+  box-sizing: border-box;
+}
+
+/* Style to the section contain the Name of the app ,timer image, timer countdown and timer name  */
+#timer {
+  font-size: 70px;
+}
+
+/* Style to h6 element that contain the name of the app */
+#pomodoroTimer {
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Style for the svg element which contain the clock picture */
+#timerImg {
+  margin-bottom: 35px;
+}
+
+/* Style for the timer name (Work/ rest) */
+#timerName {
+  margin-top: 5px;
+  font-size: 40px;
+}
+
+/* Style for the button container  */
+#timerButtonContatiner {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* Style to the (Start/Stop) button */
+#startStopButton {
+  background-color: #2a3439;
+  color: white;
+  border: 0;
+  font-size: 40px;
+  width: 150px;
+  height: 80px;
+  border-radius: 7px;
+}
+
+/* Add media query to make the page responsive */
+@media screen and (min-width: 1200px) {
+  #timerImg {
+    margin-bottom: 20px;
+  }
+  #startStopButton {
+    margin-top: 2px;
+    font-size: 45px;
+    width: 180px;
+    height: 70px;
+    border-radius: 7px;
+  }
+}
