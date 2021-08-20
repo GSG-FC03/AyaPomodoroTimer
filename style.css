@@ -14,6 +14,11 @@ body {
   font-size: 70px;
 }
 
+/* Add style to the counter down parts (minutes, seconds, and the break between them) */
+.timerSection {
+  display: inline;
+}
+
 /* Style to h6 element that contain the name of the app */
 #pomodoroTimer {
   margin-top: 20px;
