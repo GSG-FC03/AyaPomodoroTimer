@@ -61,6 +61,22 @@ function start() {
       } else takeBreak();
     }
   }
+
+  //when clicking on the button excute stop function not start function
+  //remove the event listener to stop start function
+  startStopButton.removeEventListener("click", start);
+  //Add event listener to excute stop function 
+  startStopButton.addEventListener("click", stop);
+  function stop() {
+    clearInterval(minutesInterval);
+    clearInterval(secondsInterval);
+    timerNameDiv.textContent = "Work";
+    startStopButton.textContent = "Start";
+    //remove the event listener to stop (stop function)
+    startStopButton.removeEventListener("click", stop);
+     //Add event listener to excute start function 
+    startStopButton.addEventListener("click", start);
+  }
 }
 
 function takeBreak() {
@@ -102,6 +118,22 @@ function takeBreak() {
       resTSeconds = 60;
     }
   }
+
+  //when clicking on the button excute stop function not start function
+  //remove the event listener to stop start function
+  startStopButton.removeEventListener("click", start);
+  //Add event listener to excute stop function 
+  startStopButton.addEventListener("click", stop);
+  function stop() {
+    clearInterval(minutesInterval);
+    clearInterval(secondsInterval);
+    timerNameDiv.textContent = "Work";
+    startStopButton.textContent = "Start";
+    //remove the event listener to stop (stop function)
+    startStopButton.removeEventListener("click", stop);
+     //Add event listener to excute start function 
+    startStopButton.addEventListener("click", start);
+  }
 }
 
 function takeLongeBreak() {
@@ -117,6 +149,7 @@ function takeLongeBreak() {
   // Start the countdown
   let minutesInterval = setInterval(minutesTimer, 60000);
   let secondsInterval = setInterval(secondsTimer, 1000);
+
   // Functions
   // Function for minute counter
   function minutesTimer() {
@@ -145,5 +178,21 @@ function takeLongeBreak() {
       // Reset the seconds to 60
       longRSeconds = 60;
     }
+  }
+  
+  //when clicking on the button excute stop function not start function
+  //remove the event listener to stop start function
+  startStopButton.removeEventListener("click", start);
+  //Add event listener to excute stop function 
+  startStopButton.addEventListener("click", stop);
+  function stop() {
+    clearInterval(minutesInterval);
+    clearInterval(secondsInterval);
+    timerNameDiv.textContent = "Work";
+    startStopButton.textContent = "Start";
+    //remove the event listener to stop (stop function)
+    startStopButton.removeEventListener("click", stop);
+     //Add event listener to excute start function 
+    startStopButton.addEventListener("click", start);
   }
 }
