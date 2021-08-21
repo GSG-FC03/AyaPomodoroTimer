@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body onload="template()">
     <!-- This section contain the Name of the app ,timer image, timer countdown and timer name  -->
     <section id="timer">
       <h6 id="pomodoroTimer">Pomodoro Timer</h6>
@@ -60,15 +60,25 @@
           fill="#3F3D56"
         />
       </svg>
-      <div id="timerCountdown ">00:00</div>
-      <div id="timerName">Work</div>
+      <div id="timerCountdown ">
+        <div id="minutes" class="timerSection"></div>
+        <div id="break" class="timerSection">:</div>
+        <div id="seconds" class="timerSection"></div>
+      </div>
+      <div id="timerName"></div>
     </section>
     <!-- The end of the section -->
 
     <!-- This section will contain the timer button container (Stop/Start) button -->
     <section id="timerButtonContatiner">
-      <button type="button" id="startStopButton">Start</button>
+      <button
+        type="button"
+        id="startStopButton"
+      ></button>
     </section>
     <!-- The end of the section -->
+
+    <!-- My JS -->
+    <script src="main.js"></script>
   </body>
 </html>
