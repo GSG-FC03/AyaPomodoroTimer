@@ -9,6 +9,7 @@ A Pomodoro timer is a simple application that keeps you focused and productive b
 <br>
 
 # ✧ The way of installation the project to run it locally.
+
 1- Press at the link: [Github Pomodoro repository](https://github.com/GSG-FC03/AyaPomodoroTimer).<br>
 2- Click at code button.<br>
 3- Clone the repository to your device.<br>
@@ -20,7 +21,6 @@ A Pomodoro timer is a simple application that keeps you focused and productive b
 9- Open index.html file.<br>
 10- Right-click with the mouse.<br>
 11- Select open with live server.<br>
-
 
 # ✧ Tech stack and the purpose of it
 * Html ➙ To make the structure of the website.<br>
