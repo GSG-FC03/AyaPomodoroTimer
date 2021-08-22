@@ -1,11 +1,13 @@
-# Pomodoro Timer
+# ✧ Pomodoro Timer
 
-# The idea of the app
+# ✧ Links 
+Go live link: [Here](https://gsg-fc03.github.io/AyaPomodoroTimer/)
+# ✧ The idea of the app
 A Pomodoro timer is a simple application that keeps you focused and productive by scheduling work and break sessions consecutively. Traditionally, you have 25-minute focus sessions followed by five-minute breaks and a longer 15-minute break after four consecutive focus sessions.
-# The wireframe
+# ✧ The wireframe
 <img src="./img/wireframe.png" width="200px" height="400px">
 
-# The way of installation the project to run it locally.
+# ✧ The way of installation the project to run it locally.
 1- Press at the link: [Github Book App repo](https://github.com/GSG-FC03/Book-App).<br>
 2- Click at code button.<br>
 3- Clone the repository to your device.<br>
@@ -18,10 +20,15 @@ A Pomodoro timer is a simple application that keeps you focused and productive b
 10- Right-click with the mouse.<br>
 11- Select open with live server.<br>
 
-# Tech stack and the purpose of it
+# ✧ Tech stack and the purpose of it
 * Html ➙ To make the structure of the website.<br>
 * Css ➙ To add colors, position ..etc to the elements.<br>
 * JS ➙ To the make the page more interactive.<br>
 
-# Made by 
+# ✧ Made by 
 - [Aya Alarayshi](https://github.com/Aya74)
+
+# ✧ Mentors
+- [Haneen](https://github.com/hshahwan)<br>
+- [Sara](https://github.com/sara219)<br>
+- [Line](https://github.com/lina-jamal)
