@@ -6,9 +6,11 @@ Go live link: [Here](https://gsg-fc03.github.io/AyaPomodoroTimer/)
 A Pomodoro timer is a simple application that keeps you focused and productive by scheduling work and break sessions consecutively. Traditionally, you have 25-minute focus sessions followed by five-minute breaks and a longer 15-minute break after four consecutive focus sessions.
 # ✧ The wireframe
 <img src="./img/wireframe.png" width="200px" height="400px">
+<br>
 
 # ✧ The way of installation the project to run it locally.
-1- Press at the link: [Github Book App repo](https://github.com/GSG-FC03/Book-App).<br>
+
+1- Press at the link: [Github Pomodoro repository](https://github.com/GSG-FC03/AyaPomodoroTimer).<br>
 2- Click at code button.<br>
 3- Clone the repository to your device.<br>
 4- Open gitBash.<br>
